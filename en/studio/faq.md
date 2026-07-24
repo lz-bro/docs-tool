@@ -83,6 +83,16 @@ Put the device back into flashing mode, select the image again, and restart the 
 - Try flashing the latest image.
 - Check that the device hardware (such as the power supply and storage) is functioning properly.
 
+**Q: My device won't boot after accidentally flashing a K3 image onto a K1 device (or vice versa). What should I do?**
+
+K1 and K3 series devices use different processor architectures and hardware configurations, so their images are not compatible. If you flash an incompatible image, the device will fail to boot.
+
+**Solution:** Flash the correct image that matches your device model to restore normal operation. For example:
+- K1 devices (MUSE Pi Pro, MUSE Pi, etc.) require K1 series images
+- K3 devices (CoM260 Kit, Pico-ITX, etc.) require K3 series images
+
+Always verify that the device model matches the image type before flashing.
+
 **Q: Why did the image download fail or stop unexpectedly?**
 
 - Check that your network connection is stable.

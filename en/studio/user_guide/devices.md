@@ -66,7 +66,8 @@ The bottom of the device panel provides shortcut buttons for common operations:
 - **Remote Desktop**: Accesses the device graphical interface through VNC/RDP
   ![](../static/remote.png) 
 - **IDE**: Opens the device integrated development environment in Studio
-  ![IDE](../static/ide.png) 
+  ![IDE](../static/ide.png)
+- **Enter Flash** (ADB devices only): One-click operation to put the device into flash mode without manually pressing hardware buttons or executing commands, enabling quick [firmware flashing](./dev_tools/flash.md) 
 
 ### Rename Device
 

@@ -31,10 +31,14 @@ Click the ⚙️ icon to open the Settings page, where the appearance, cache, AI
 
 ## Remote Gateway
 
-- **Disabled (default)**: Connects directly to the local driver. Suitable for local development and debugging.
-- **Enabled**: When enabled, fill in the following information and click **Test & Save**:
-  - **Gateway Address**: The address of the remote gateway.
-  ![Remote gateway settings](../static/setting_01.png)
+The Remote Gateway feature allows users to remotely access SpacemiT Studio on other computers.
+
+![Remote gateway settings](../static/setting_01.png)
+
+- **Disabled (default)**: Access local devices only
+- **Enabled**: When enabled, allows remote access to Studio and connected devices on other computers under the same account
+
+> Before using the Remote Gateway, the proxy service must be started on the host computer from the [Development Tools -> Remote Access](./dev_tools/remote_access.md) page.
 
 ## About
 
