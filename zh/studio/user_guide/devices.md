@@ -34,7 +34,6 @@ sidebar_position: 1
 
 ![设备离线](../static/device_04.png)
 
-
 ### 连接成功
 
 设备连接成功后，首页将显示当前设备的详细信息：
@@ -67,7 +66,8 @@ sidebar_position: 1
 - **远程桌面**：通过 VNC/RDP 访问设备图形界面
   ![](../static/remote.png) 
 - **IDE**：在 Studio 内打开设备的集成开发环境
-  ![IDE](../static/ide.png) 
+  ![IDE](../static/ide.png)
+- **进入刷机模式**（仅 ADB 设备）：一键让设备进入刷机模式，无需手动操作硬件按键或执行命令，便于快速进行[固件烧录](./dev_tools/flash.md) 
 
 ### 重命名设备
 

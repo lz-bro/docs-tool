@@ -32,9 +32,19 @@ The Terminal Sessions area on the right provides a command-line environment with
 The terminal toolbar provides the following actions:
 
 - **+**: Creates a new terminal tab.
+
 - **SSH**: Connects to the device over SSH and opens a remote terminal. Select this option to open the configuration dialog, then enter the SSH port, username, and password to connect.
   ![Configure SSH parameters](../static/terminal_01.png)
+
 - **ADB**: Connects to the device through the ADB protocol and opens a debugging shell.
+
 - **Open Serial**: Opens a serial terminal for viewing boot logs and performing low-level debugging. Select this option to open the configuration dialog, choose a serial device, configure the baud rate and other parameters, then connect.
   ![Configure serial parameters](../static/systool_serial_01.png)
+
+- **Split Right**: Splits the terminal area to create a new independent panel to the right of the current terminal.
+  ![Terminal split screen example](../static/terminal_02.png)
+- **Split Down**: Splits the terminal area to create a new independent panel below the current terminal.
+
+  > **Split screen limits:** Maximum of 5 panels in a single direction (horizontal or vertical) and 16 panels total.
+
 - **FullScreen**: Switches the terminal area to full-screen mode.
