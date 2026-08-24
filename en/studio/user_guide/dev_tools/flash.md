@@ -121,7 +121,7 @@ Writes a system image to an SD card, allowing the device to boot from the card. 
 
    ![Select SD card](../../static/sdcard_1.png)
 
-   > If the list is empty, confirm the SD card is inserted and click the refresh button to re-detect.
+   > If the list is empty, confirm the SD card is inserted and click the refresh button ⟳ to re-detect.
 
 3. **Flash Boot Card** is selected by default under **Select Operation**.
 
@@ -176,3 +176,59 @@ The procedure is the same as [SD Card Boot](#sd-card-boot), with the following d
 | System storage location | SD card | Device onboard storage |
 | Behavior after SD card removal | Cannot boot | Operates normally |
 | Typical use case | Debugging, evaluation | Mass production |
+
+## Writing Tool
+
+Writes factory configuration information, such as serial numbers and MAC addresses, to a device. Use it for production-line configuration or to verify information on an individual device.
+
+### Writing Tool Procedure
+
+1. Go to **Development Tools → Key Writing Tool**.
+
+   ![Writing Tool entry](../../static/key_write_00.png)
+
+2. Select the target device.
+
+   In the **Select Device** drop-down list, select the device to configure.
+
+   ![Select Device](../../static/key_write_01.png)
+
+   > If the list is empty, confirm that the device is connected and in flashing mode, then click the refresh button ⟳ on the right to scan again.
+
+3. (Optional) Configure fields.
+
+   To customize the fields displayed in the table, click **Configure Fields** to open the field configuration panel. In the panel, you can:
+
+   ![Configure Fields](../../static/key_write_03.png)
+
+   - Use the **Enabled** switch to control whether a field is shown in the table.
+   - Click the edit icon **✎** to change a field's description or storage medium.
+   - Click the delete icon **🗑** icon to remove a field.
+   - Click **Add Field** to add a custom field.
+   - Click **Restore Default** to restore the default field list.
+
+   Click **Save** to apply the changes, or **Cancel** to discard them.
+
+4. Read the current device configuration.
+
+   Click **Start Reading**. The tool reads all configuration fields from the device and fills the table.
+
+   ![读号](../../static/key_write_02.png)
+
+   After the read operation completes, the table displays the following columns:
+
+   - **Property**: Technical identifier for the field, such as `product_name` or `serial#`.
+   - **Description**: Readable description of the field.
+   - **Storage Medium**: Storage location; `eeprom` is the default.
+   - **Value**: Current value stored on the device.
+   - **Status**: Result of the read operation, showing success (✓) or failure (✗).
+
+   Common fields include the hardware board model, device serial number, MAC address, and manufacturing date. The refresh button ⟳ beside each field reads that field again.
+
+5. Edit and write configuration.
+
+   Edit the required values in the **Value** column, select the check box for each field to write, then click **Start Writing**.
+
+   After the write operation completes, the **Status** column shows the result for each field.
+
+   > After writing, click **Start Reading** again to verify that the configuration was written correctly.

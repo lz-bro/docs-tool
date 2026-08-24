@@ -41,11 +41,11 @@ sidebar_position: 2
 
 ## 安装驱动
 
-首次启动 SpacemiT Studio 时，如果尚未安装驱动，首页显示 **服务未启动** 提示：
+首次启动 SpacemiT Studio 时，如果尚未安装驱动，首页将显示 **服务未启动** 提示：
 
 ![首页 - 无驱动无设备](./static/initial.png)
 
-点击提示后，将弹出 SpacemiT Studio 的驱动安装引导窗口，提供以下三个操作：
+同时，驱动安装引导窗口会自动弹出。若该窗口未自动弹出，可点击 **服务未启动** 提示手动打开。驱动安装引导提供以下三种操作方式：
 
 <img src="./static/driver_00.png" alt="驱动安装引导" width="400">
 
@@ -121,7 +121,7 @@ sidebar_position: 2
 
 > 如果提交失败，请检查网络状况后重试。
 
-![](./static/feedback.png)
+<img src="./static/feedback.png" alt="意见反馈" width="400">
 
 ## 连接设备
 

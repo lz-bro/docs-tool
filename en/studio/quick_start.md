@@ -41,11 +41,11 @@ You can login using the following methods:
 
 ## Driver Installation
 
-When you first start SpacemiT Studio, the home page displays a **Service not started** message if the driver is not installed:
+When you first start SpacemiT Studio, if the driver is not installed, the home page displays a **Service not started** message and the driver installation wizard opens automatically:
 
 ![Home page with no driver or device](./static/initial.png)
 
-Click the message to open the SpacemiT Studio driver installation wizard, which provides the following options:
+If the wizard does not open automatically, click the **Service not started** message to open it manually. The wizard provides the following options:
 
 <img src="./static/driver_00.png" alt="Driver installation wizard" width="400">
 
@@ -120,7 +120,7 @@ After submission, the page displays a **Submitted Successfully** message.
 
 > If submission fails, check your network connection and try again.
 
-![Feedback dialog](./static/feedback.png)
+<img src="./static/feedback.png" alt="Feedback dialog" width="400">
 
 ## Connect a Device
 
