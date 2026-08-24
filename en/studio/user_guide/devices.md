@@ -12,8 +12,8 @@ The Device Management panel centrally manages all connected development boards. 
 
 | Series | Models |
 |------|------|
-| K1 | MUSE Pi Pro、MUSE Pi、MUSE Book、MUSE Paper |
-| K3 | CoM260 Kit、Pico-ITX |
+| K1 | MUSE Pi Pro, MUSE Pi, MUSE Book, MUSE Paper |
+| K3 | CoM260 Kit, Pico-ITX |
 
 ## Device Connection
 

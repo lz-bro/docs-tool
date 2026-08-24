@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # 产品概述
 
-**[SpacemiT Studio](https://studio.spacemit.com/)** 是由进迭时空 AI CPU 开发生态的一站式 Web工作台，集成镜像管理、系统烧录、设备管理、终端调试、云端编译、AI 开发和应用部署等能力，支持从系统安装到应用上线的完整开发流程。
+**[SpacemiT Studio](https://studio.spacemit.com/)** 是由进迭时空 AI CPU 开发生态的一站式 Web 工作台，集成镜像管理、系统烧录、设备管理、终端调试、云端编译、AI 开发和应用部署等能力，支持从系统安装到应用上线的完整开发流程。
 
 它为 RISC-V 开发提供统一入口，帮助开发者在同一界面中完成设备准备、软件开发和应用部署。
 

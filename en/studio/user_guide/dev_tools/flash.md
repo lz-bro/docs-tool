@@ -213,7 +213,7 @@ Writes factory configuration information, such as serial numbers and MAC address
 
    Click **Start Reading**. The tool reads all configuration fields from the device and fills the table.
 
-   ![读号](../../static/key_write_02.png)
+   ![Read device configuration](../../static/key_write_02.png)
 
    After the read operation completes, the table displays the following columns:
 
