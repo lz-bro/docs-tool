@@ -49,6 +49,7 @@ After a device is connected successfully, the home page displays detailed inform
 After a device is connected successfully, the following information is available:
 
 - Device series and serial number
+- Device IP address (for remote access)
 - Currently installed operating system, such as Bianbu
 - Device connection method, such as ADB
 - Online/offline status
@@ -63,7 +64,7 @@ The bottom of the device panel provides shortcut buttons for common operations:
 - **[Terminal](./terminal.md#terminal-sessions)**: Opens a terminal session for the device
 - **[Files](./terminal.md#file-management)**: Opens device file management
 - **[Serial Connection](./dev_tools/system_tools.md#serial-connection)**: Communicates with the device over a serial connection for low-level debugging and log viewing
-- **Remote Desktop**: Accesses the device graphical interface through VNC/RDP
+- **Desktop**: Accesses the device graphical interface through VNC/RDP
   ![](../static/remote.png) 
 - **IDE**: Opens the device integrated development environment in Studio
   ![IDE](../static/ide.png)
@@ -77,10 +78,12 @@ Connected devices can be assigned custom names to distinguish them when managing
 
 ### New Device
 
-To add a device, click **+ New Device** and follow the steps in the **Connect Your Device** dialog to connect a local device.
-At the bottom of the dialog, select either USB or SSH as the connection method.
+To add a device, click **+ New Device** and follow the instructions in the **Connect Your Device** dialog to complete the connection.
+At the bottom of the dialog, select a connection method: Cloud, SSH, or USB.
 
 ![New device](../static/device_03.png)
+
+Newly added devices appear in the **Device** list.
 
 ## Activity
 

@@ -22,6 +22,7 @@ A headless initialization tool that presets system parameters before the device'
    - **Hostname**: A custom device name. If left blank, the hostname is generated automatically.
    - **Language / Timezone**: The system display language and timezone. The timezone defaults to UTC.
    - **WiFi**: Optional. Enter the SSID and password (WPA/WPA2-PSK supported) to connect automatically on first boot.
+   - **Logo Configuration**: Upload a logo image to display during device boot. Only BMP format is supported, with 8/24/32-bit color depth and a maximum size of 1MB.
 
 3. Click **Push and Run**. The configuration is written to the connected device and applied automatically on first boot.
 
