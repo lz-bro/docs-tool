@@ -57,4 +57,3 @@ The available actions for each app depend on its running status:
 - **Config**: Modify the app configuration
 - **Default**: Restore the default configuration
 - **Uninstall**: Remove the app from the device
-s

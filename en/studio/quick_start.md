@@ -10,7 +10,7 @@ This section describes how to access SpacemiT Studio, register an account, insta
 
 Open **[SpacemiT Studio](https://studio.spacemit.com/)** in a web browser.
 
-> Note: Login to access the main Studio interface. Otherwise, Studio redirects you to the sign-in page.
+> Note: Log in to access the main Studio interface. Otherwise, Studio redirects you to the sign-in page.
 
 ## Login
 
@@ -24,11 +24,11 @@ If you do not have an account, you can register with either of the following met
 - Register with an email address
 
 After registration, go to the Login page.
-> You can also login with a third-party account without registering separately.
+> You can also log in with a third-party account without registering separately.
 
 ### Login Methods
 
-You can login using the following methods:
+You can log in using the following methods:
 <img src="./static/login.png" alt="Login screen" width="400">
 
 - SMS verification code

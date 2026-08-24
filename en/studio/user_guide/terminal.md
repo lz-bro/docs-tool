@@ -58,4 +58,4 @@ The terminal toolbar provides the following actions:
 
   > **Split screen limits:** Maximum of 5 panels in a single direction (horizontal or vertical) and 16 panels total.
 
-- **FullScreen**: Switches the terminal area to full-screen mode.
+- **Full Screen**: Switches the terminal area to full-screen mode.
